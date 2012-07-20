@@ -64,21 +64,27 @@ But the basic criteria are:
 
 * send a message to the `dev mailing list`_, to check if we are likely to accept your contribution.
 
+
 * clone the repository
 * select the update site(s) you want to add your plugin to.
-* in ``site.xml``
+* in ``site.xml``:
+
   * add your code feature in the relevant category.
   * create a new category if that make sense.
   * add your source feature in the source category.
-* in ``pom.xml``
+
+* in ``pom.xml``:
+
   * create a property with the location of your update site.
   * create a repository entry for your update site.
+
 * run the build locally.
 * check that installing your plugin using the local update site works correctly.
 * create a pull request.
 * wait for the comments on the pull request.
 * modify or argue on the comments.
 * after request as been merged, and the site(s) rebuilt, check that installing your plugin using the update site works correctly.
+
 
 * improve this documentation and submit a pull request to help your fellow contributors.
 
