@@ -27,8 +27,8 @@
     <repo.ajdt>${repo.ajdt.indigo}</repo.ajdt>
 
     <!-- plugin repos -->
-    <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/site</repo.scala-ide>
-    <repo.scala-ide.scalatest>${repo.scala-ide.root}/scalatest/nightly-scala-ide-2.0-scala-2.9/site</repo.scala-ide.scalatest>
+    <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/tycho-site</repo.scala-ide>
+    <repo.scala-ide.scalatest>http://www.artima.com/plugins/stable</repo.scala-ide.scalatest>
   </properties>
 
   <repositories>

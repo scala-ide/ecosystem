@@ -27,7 +27,7 @@
     <repo.ajdt>${repo.ajdt.indigo}</repo.ajdt>
 
     <!-- plugin repos -->
-    <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/site</repo.scala-ide>
+    <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/tycho-site</repo.scala-ide>
   </properties>
 
   <repositories>
