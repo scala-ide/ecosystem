@@ -25,7 +25,7 @@ dev-scala-ide-2.0-scala-2.9
 Contains development version of plugins for Scala IDE 2.0.2 and Scala 2.9.2.
 
 * Scala IDE 2.0.2
-* scalatest for Scala IDE 0.1.x
+* scalatest for Scala IDE 0.9.1
 
 dev-scala-ide-master-scala-2.9
 ..............................
@@ -35,7 +35,7 @@ dev-scala-ide-master-scala-2.9
 Contains development version of plugins for Scala IDE 2.1.x and Scala 2.9.x.
 
 * Scala IDE 2.1.x
-* scalatest for Scala IDE 0.1.x
+* scalatest for Scala IDE 0.9.1
 
 dev-scala-ide-master-scala-trunk
 ................................
