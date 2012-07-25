@@ -27,7 +27,7 @@ http://download.scala-ide.org/ecosystem/dev-2.0-2.9/site/
 Contains development version of plugins for Scala IDE 2.0.2 and Scala 2.9.2.
 
 * Scala IDE 2.0.2
-* scalatest for Scala IDE 0.9.1
+* ScalaTest plugin for Scala IDE 0.9.1
 
 dev-scala-ide-master-scala-2.9
 ..............................
@@ -39,7 +39,7 @@ http://download.scala-ide.org/ecosystem/dev-master-2.9/site/
 Contains development version of plugins for Scala IDE 2.1.x and Scala 2.9.x.
 
 * Scala IDE 2.1.x
-* scalatest for Scala IDE 0.9.1
+* ScalaTest plugin for Scala IDE 0.9.1
 
 dev-scala-ide-master-scala-trunk
 ................................
