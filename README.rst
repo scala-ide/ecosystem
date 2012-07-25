@@ -22,6 +22,8 @@ dev-scala-ide-2.0-scala-2.9
 
 **Scala IDE ecosystem dev (Scala IDE 2.0.2, Scala 2.9.2)**
 
+http://download.scala-ide.org/ecosystem/dev-2.0-2.9/site/
+
 Contains development version of plugins for Scala IDE 2.0.2 and Scala 2.9.2.
 
 * Scala IDE 2.0.2
@@ -31,6 +33,8 @@ dev-scala-ide-master-scala-2.9
 ..............................
 
 **Scala IDE ecosystem dev (Scala IDE 2.1.x, Scala 2.9.x)**
+
+http://download.scala-ide.org/ecosystem/dev-master-2.9/site/
 
 Contains development version of plugins for Scala IDE 2.1.x and Scala 2.9.x.
 
@@ -59,8 +63,8 @@ But the basic criteria are:
 * it has to be relevant to Scala.
 * it has to work well enough to be usable, and not impact in a bad way other plugins.
 
-1st method: clone and modify (preferred)
-.......................................
+1st method: clone, modify, pull request (preferred)
+...................................................
 
 * send a message to the `dev mailing list`_, to check if we are likely to accept your contribution.
 
@@ -93,7 +97,7 @@ But the basic criteria are:
 
 * create a `ticket`_ asking nicely for your plugin to be added.
 * provide the name of the feature(s), version number(s), the update site(s) and the category it could be added in.
-* wait for one of the contributors to take the time to make the appropriate changes.
+* wait for one of the contributors to take the time to look at the ticket and make the appropriate changes.
 * answer swiftly to any request for additional information.
 * wait more.
 * when the ticket is fixed, and the site(s) rebuilt, check that installing your plugin using the update site works correctly.
