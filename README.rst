@@ -67,8 +67,8 @@ If you already have an Eclipse plugin version of your project, you can go to the
 
 Otherwise, we provide two `giter8`_ templates to generate complete maven projects, with plugins, features and update site:
 
-* `scala-plugin.g8`__ - a set of projects to develop an Eclipse plugin written in Scala.
-* `scala-ide-plugin.g8`__ - a set of projects to develop an Eclipse plugin on top of Scala IDE.
+* `scala-ide/scala-plugin.g8`__ - a set of projects to develop an Eclipse plugin written in Scala.
+* `scala-ide/scala-ide-plugin.g8`__ - a set of projects to develop an Eclipse plugin on top of Scala IDE.
 
 __ https://github.com/scala-ide/scala-plugin.g8
 __ https://github.com/scala-ide/scala-ide-plugin.g8
