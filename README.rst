@@ -60,6 +60,21 @@ Contains development version of plugins for Scala IDE 2.1.x and Scala 2.10.x.
 
 __ scala-ide_
 
+How to make a plugin of your project
+----------------------------------
+
+If you already have an Eclipse plugin version of your project, you can go to the next section to see if it can be added to the ecosystem update sites.
+
+Otherwise, we provide two `giter8`_ templates to generate complete maven projects, with plugins, features and update site:
+
+* `scala-plugin.g8`__ - a set of projects to develop an Eclipse plugin written in Scala.
+* `scala-ide-plugin.g8`__ - a set of projects to develop an Eclipse plugin on top of Scala IDE.
+
+__ https://github.com/scala-ide/scala-plugin.g8
+__ https://github.com/scala-ide/scala-ide-plugin.g8
+
+You can use them to start the Scala IDE plugin version of your project.
+
 How to add your plugins to the sites
 ------------------------------------
 
@@ -78,6 +93,7 @@ But the basic criteria are:
 
 * send a message to the `dev mailing list`_, to check if we are likely to accept your contribution.
 
+  
 
 * clone the repository
 * select the update site(s) you want to add your plugin to.
@@ -99,6 +115,7 @@ But the basic criteria are:
 * modify or argue on the comments.
 * after request as been merged, and the site(s) rebuilt, check that installing your plugin using the update site works correctly.
 
+  
 
 * improve this documentation and submit a pull request to help your fellow contributors.
 
@@ -114,6 +131,7 @@ But the basic criteria are:
 
 .. _dev mailing list: http://scala-ide.org/docs/user/community.html
 .. _ticket: http://scala-ide.org/docs/user/community.html
+.. _giter8: https://github.com/n8han/giter8/
 
 .. _scala-ide: http://scala-ide.org/
 .. _scalatest plugin: https://github.com/scalatest/scalatest-eclipse-plugin
