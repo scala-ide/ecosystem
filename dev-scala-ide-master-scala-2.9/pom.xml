@@ -29,6 +29,7 @@
     <!-- plugin repos -->
     <repo.scala-ide>${repo.scala-ide.root}/nightly-update-master-29x</repo.scala-ide>
     <repo.scala-ide.scalatest>http://www.artima.com/newplugins/dev</repo.scala-ide.scalatest>
+    <repo.scala-ide.sbtconsole>http://scala-ide.dreamhosters.com/nightly-update-sbtconsole-scalaide21-29/site/</repo.scala-ide.sbtconsole> 
   </properties>
 
   <repositories>
