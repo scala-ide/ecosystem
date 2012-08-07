@@ -45,9 +45,11 @@ Contains development version of plugins for Scala IDE 2.1.x and Scala 2.9.x.
 
 * Scala IDE 2.1.x - `website`__
 * ScalaTest plugin for Scala IDE 0.9.1 - `project page`__
+* SBT Console for Scala IDE nightly - `project page`__
 
 __ scala-ide_
 __ scalatest plugin_
+__ sbtconsole_
 
 dev-scala-ide-master-scala-trunk
 ................................
@@ -57,8 +59,10 @@ dev-scala-ide-master-scala-trunk
 Contains development version of plugins for Scala IDE 2.1.x and Scala 2.10.x.
 
 * Scala IDE 2.1.x - `website`__
+* SBT Console for Scala IDE nightly - `project page`__
 
 __ scala-ide_
+__ sbtconsole_
 
 How to make a plugin of your project
 ----------------------------------
@@ -135,3 +139,4 @@ But the basic criteria are:
 
 .. _scala-ide: http://scala-ide.org/
 .. _scalatest plugin: https://github.com/scalatest/scalatest-eclipse-plugin
+.. _sbtconsole: https://github.com/SandroGrzicic/sbtconsole
