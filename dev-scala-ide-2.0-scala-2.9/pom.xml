@@ -28,7 +28,7 @@
 
     <!-- plugin repos -->
     <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/tycho-site</repo.scala-ide>
-    <repo.scala-ide.scalatest>http://www.artima.com/newplugins/stable</repo.scala-ide.scalatest>
+    <repo.scala-ide.scalatest>http://www.artima.com/newplugins2/stable</repo.scala-ide.scalatest>
   </properties>
 
   <repositories>
