@@ -29,6 +29,7 @@
     <!-- plugin repos -->
     <repo.scala-ide>${repo.scala-ide.root}/nightly-update-master-29x</repo.scala-ide>
     <repo.scala-ide.scalatest>http://www.artima.com/newplugins2/dev</repo.scala-ide.scalatest>
+    <repo.insynth>http://scala-ide.dreamhosters.com/nightly-update-insynth-scalaide21-29/site/</repo.insynth>
   </properties>
 
   <repositories>
@@ -58,6 +59,13 @@
       <name>Scalatest for Scala IDE p2 repository</name>
       <layout>p2</layout>
       <url>${repo.scala-ide.scalatest}</url>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>    
+    <repository>
+      <id>insynth</id>
+      <name>InSynth for Scala IDE p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.insynth}</url>
       <snapshots><enabled>false</enabled></snapshots>
     </repository>
   </repositories>
