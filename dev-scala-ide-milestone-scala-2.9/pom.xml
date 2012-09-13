@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <prerequisites>
+    <maven>3.0</maven>
+  </prerequisites>
+  <groupId>org.scala-ide</groupId>
+  <artifactId>org.scala-ide.ecosystem</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <description>Build project for the scalatest support in Scala IDE</description>
+  <packaging>eclipse-update-site</packaging>
+
+  <properties>
+    <encoding>UTF-8</encoding>
+    <tycho.version>0.15.0</tycho.version>
+
+    <!-- p2 repositories location -->
+    <repo.eclipse.indigo>http://download.eclipse.org/releases/indigo/</repo.eclipse.indigo>
+    <repo.eclipse.juno>http://download.eclipse.org/eclipse/updates/4.2milestones</repo.eclipse.juno>
+    <repo.ajdt.indigo>http://download.eclipse.org/tools/ajdt/37/dev/update</repo.ajdt.indigo>
+    <repo.scala-ide.root>http://download.scala-ide.org</repo.scala-ide.root>
+
+    <!-- dependencies repos -->
+    <eclipse.codename>indigo</eclipse.codename>
+    <repo.eclipse>${repo.eclipse.indigo}</repo.eclipse>
+    <repo.ajdt>${repo.ajdt.indigo}</repo.ajdt>
+
+    <!-- plugin repos -->
+    <repo.scala-ide>${repo.scala-ide.root}/incoming-release-29/jenkins/site/</repo.scala-ide>
+    <repo.scala-ide.scalatest>http://www.artima.com/newplugins3/2.1-m2-scala-2.9/</repo.scala-ide.scalatest>
+    <repo.scala-ide.worksheet>${repo.scala-ide.root}/plugins/worksheet/releases/ide-2.1.0-m2/2.9.x/stable/site/</repo.scala-ide.worksheet>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>eclipse.${eclipse.codename}</id>
+      <name>Eclipse p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.eclipse}</url>
+    </repository>
+    <repository>
+      <id>ajdt.${eclipse.codename}</id>
+      <name>AJDT for Eclipse p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.ajdt}</url>
+    </repository>
+    <repository>
+      <id>scala-ide</id>
+      <name>Scala IDE p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.scala-ide}</url>
+    </repository>
+    <repository>
+      <id>scala-ide.scalatest</id>
+      <name>Scalatest for Scala IDE p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.scala-ide.scalatest}</url>
+    </repository>
+    <repository>
+      <id>scala-ide.worksheet</id>
+      <name>Scala Worksheet repository</name>
+      <layout>p2</layout>
+      <url>${repo.scala-ide.worksheet}</url>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-packaging-plugin</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <archiveSite>true</archiveSite>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
