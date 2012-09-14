@@ -15,8 +15,15 @@
    <feature url="features/org.scala-ide.sdt.scalatest.source.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.source.feature" version="0.9.2">
       <category name="source"/>
    </feature>
+   <feature url="features/ch.epfl.insynth.feature-0.0.1-SNAPSHOT.jar" id="ch.epfl.insynth.feature" version="0.0.1.qualifier">
+      <category name="sdt.codeSynthesis"/>
+   </feature>
+   <feature url="features/ch.epfl.insynth.source.feature-0.0.1-SNAPSHOT.jar" id="ch.epfl.insynth.source.feature" version="0.0.1.qualifier">
+      <category name="source"/>
+   </feature>
    <category-def name="sdt" label="Scala IDE for Eclipse"/>
    <category-def name="sdt.scalatest" label="ScalaTest for Scala IDE"/>
    <category-def name="dev" label="Scala IDE for Eclipse development support"/>
    <category-def name="source" label="Sources"/>
+   <category-def name="sdt.codeSynthesis" label="InSynth code synthesis for Scala IDE for Eclise support"/>
 </site>
