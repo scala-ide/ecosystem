@@ -27,7 +27,7 @@
     <repo.ajdt>${repo.ajdt.indigo}</repo.ajdt>
 
     <!-- plugin repos -->
-    <repo.scala-ide>${repo.scala-ide.root}/incoming-release-29/jenkins/site/</repo.scala-ide>
+    <repo.scala-ide>${repo.scala-ide.root}/releases-29/milestone/site/</repo.scala-ide>
     <repo.scala-ide.scalatest>http://www.artima.com/newplugins3/2.1-m2-scala-2.9/</repo.scala-ide.scalatest>
     <repo.scala-ide.worksheet>${repo.scala-ide.root}/plugins/worksheet/releases/ide-2.1.0-m2/2.9.x/stable/site/</repo.scala-ide.worksheet>
   </properties>
