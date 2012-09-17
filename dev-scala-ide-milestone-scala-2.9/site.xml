@@ -15,10 +15,10 @@
    <feature url="features/org.scala-ide.sdt.scalatest.source.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.source.feature" version="0.9.3">
       <category name="source"/>
    </feature>
-   <feature url="features/org.scalaide.worksheet.feature_0.0.0.jar" id="org.scalaide.worksheet.feature" version="0.1.0">
+   <feature url="features/org.scalaide.worksheet.feature_0.0.0.jar" id="org.scalaide.worksheet.feature" version="0.1.1">
       <category name="sdt.worksheet"/>
    </feature>
-   <feature url="features/org.scalaide.worksheet.source.feature_0.0.0.jar" id="org.scalaide.worksheet.source.feature" version="0.1.0">
+   <feature url="features/org.scalaide.worksheet.source.feature_0.0.0.jar" id="org.scalaide.worksheet.source.feature" version="0.1.1">
       <category name="source"/>
    </feature>
    <category-def name="sdt" label="Scala IDE for Eclipse"/>
