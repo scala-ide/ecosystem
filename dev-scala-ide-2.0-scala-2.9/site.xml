@@ -9,10 +9,10 @@
    <feature url="features/org.scala-ide.sdt.dev.feature_0.0.0.jar" id="org.scala-ide.sdt.dev.feature" version="2.0.2">
       <category name="dev"/>
    </feature>
-   <feature url="features/org.scala-ide.sdt.scalatest.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.feature" version="0.9.2">
+   <feature url="features/org.scala-ide.sdt.scalatest.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.feature" version="0.9.3">
       <category name="sdt.scalatest"/>
    </feature>
-   <feature url="features/org.scala-ide.sdt.scalatest.source.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.source.feature" version="0.9.2">
+   <feature url="features/org.scala-ide.sdt.scalatest.source.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.source.feature" version="0.9.3">
       <category name="source"/>
    </feature>
    <category-def name="sdt" label="Scala IDE for Eclipse"/>
