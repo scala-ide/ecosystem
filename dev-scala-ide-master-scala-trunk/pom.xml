@@ -28,6 +28,7 @@
 
     <!-- plugin repos -->
     <repo.scala-ide>${repo.scala-ide.root}/nightly-update-master-trunk</repo.scala-ide>
+    <repo.scala-ide.scalatest>http://www.artima.com/newplugins3/dev-2.10</repo.scala-ide.scalatest>
   </properties>
 
   <repositories>
@@ -50,6 +51,13 @@
       <name>Scala IDE p2 repository</name>
       <layout>p2</layout>
       <url>${repo.scala-ide}</url>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>scala-ide.scalatest</id>
+      <name>Scalatest for Scala IDE p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.scala-ide.scalatest}</url>
       <snapshots><enabled>false</enabled></snapshots>
     </repository>
   </repositories>

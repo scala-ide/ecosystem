@@ -28,6 +28,7 @@
 
     <!-- plugin repos -->
     <repo.scala-ide>${repo.scala-ide.root}/releases-29/stable/tycho-site</repo.scala-ide>
+    <repo.scala-ide.scalatest>http://www.artima.com/newplugins3/stable</repo.scala-ide.scalatest>
   </properties>
 
   <repositories>
@@ -50,6 +51,13 @@
       <name>Scala IDE p2 repository</name>
       <layout>p2</layout>
       <url>${repo.scala-ide}</url>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>scala-ide.scalatest</id>
+      <name>Scalatest for Scala IDE p2 repository</name>
+      <layout>p2</layout>
+      <url>${repo.scala-ide.scalatest}</url>
       <snapshots><enabled>false</enabled></snapshots>
     </repository>
   </repositories>
