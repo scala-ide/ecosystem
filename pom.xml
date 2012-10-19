@@ -15,7 +15,7 @@
     <dependency>
       <groupId>org.scala-ide</groupId>
       <artifactId>build-tools_2.9.2</artifactId>
-      <version>0.1.1</version>
+      <version>0.2.0</version>
     </dependency>
   </dependencies>
   <build>
