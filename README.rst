@@ -1,6 +1,10 @@
 Scala IDE ecosystem builds
 ==========================
 
+
+**This documentation is out of date. Check the wiki pages for more up-to-date information**
+
+
 This is a set of maven projects used to create the Scala IDE ecosystem update sites.
 
 The projects
