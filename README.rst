@@ -1,8 +1,8 @@
 Scala IDE ecosystem builder
 ===========================
 
-This is the ecosystem builder, a `Maven <https://maven.apache.org/>`_
-project that uses the Scala-IDE `build
+This is the ecosystem builder, a `Maven <https://maven.apache.org/>`_ based
+system that uses the Scala-IDE `build
 tools <https://github.com/scala-ide/build-tools>`_ to build and
 integrate Scala-related plugins within Eclipse update sites, on top of
 specific **flavors** of Eclipse, Scala and Scala-IDE.
