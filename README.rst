@@ -118,8 +118,7 @@ for your plugin, as described above.
 Getting Support and advice
 --------------------------
 
-You can find support in the `Scala-IDE development mailing
-list <https://groups.google.com/forum/#!forum/scala-ide-dev>`_. We
+You can find support in the `Scala-IDE development mailing list <http://groups.google.com/group/scala-ide-dev>`_. We
 welcome your comments and questions, including those related to this
 README !
 
