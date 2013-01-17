@@ -25,13 +25,13 @@ If you already have an Eclipse plugin version of your project, you can
 go to the next section to see if it can be added to the ecosystem update
 sites.
 
-Otherwise, we provide two \`giter8\`\_ templates to generate complete
+Otherwise, we provide two `giter8 <https://github.com/n8han/giter8>`_ templates to generate complete
 maven projects, with plugins, features and update site:
 
--  ```scala-ide/scala-plugin.g8`` <https://github.com/scala-ide/scala-plugin.g8>`_
+-  `scala-ide/scala-plugin.g8 <https://github.com/scala-ide/scala-plugin.g8>`_
    a set of projects to develop an Eclipse plugin written in Scala
 
--  ```scala-ide/scala-ide-plugin.g8`` <https://github.com/scala-ide/scala-ide-plugin.g8>`_
+-  `scala-ide/scala-ide-plugin.g8 <https://github.com/scala-ide/scala-ide-plugin.g8>`_
    a set of projects to develop an Eclipse plugin on top of Scala IDE.
 
 You can use them to start the Scala IDE plugin version of your project.
@@ -112,8 +112,7 @@ Once this is done, you need to provide a pull request against the
 `ecosystem project <https://github.com/scala-ide/ecosystem>`_ that adds
 a `feature
 file <https://github.com/scala-ide/ecosystem/wiki/Configuration#Add-ons-configuration>`_
-in our ```features``
-directory <https://github.com/scala-ide/ecosystem/tree/master/features>`_
+in our `features directory <https://github.com/scala-ide/ecosystem/tree/master/features>`_
 for your plugin, as described above.
 
 Getting Support and advice
@@ -126,12 +125,10 @@ README !
 
 .. [1]
    This section is a condensed version of the
-   [[https://github.com/scala-ide/ecosystem/wiki/Contributor-guide][Contributor's
-   guide]] present in the project's
-   [[https://github.com/scala-ide/ecosystem/wiki][documentation wiki]].
+   `Contributor's guide <https://github.com/scala-ide/ecosystem/wiki/Contributor-guide>`_ present in the project's
+   `documentation wiki <https://github.com/scala-ide/ecosystem/wiki>`_.
 
 .. [2]
    This section is a condensed version of the
-   [[https://github.com/scala-ide/ecosystem/wiki/Contributor%2527s-cheatsheet][Contributor's
-   cheatsheet]] present in the project's
-   [[https://github.com/scala-ide/ecosystem/wiki][documentation wiki]].
+   `Contributor's cheatsheet <https://github.com/scala-ide/ecosystem/wiki/Contributor%2527s-cheatsheet>`_ present in the project's
+   `documentation wiki <https://github.com/scala-ide/ecosystem/wiki>`_.
