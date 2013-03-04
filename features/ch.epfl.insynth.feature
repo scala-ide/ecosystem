@@ -3,8 +3,10 @@ plugin-descriptor {
   documentation = "https://github.com/kaptoxic/scala-ide-insynth-integration/wiki"
   issue-tracker = "https://github.com/kaptoxic/scala-ide-insynth-integration/issues"
   update-sites = [
-  	"http://lara.epfl.ch/~insynth/indigo_scala-ide-indigo-scala-2.9_2.9.x" ,
-  	"http://lara.epfl.ch/~insynth/indigo_scala-ide-indigo-scala-2.10_2.10.x"
+  	"http://lara.epfl.ch/~insynth/indigo-2_9" ,
+  	"http://lara.epfl.ch/~insynth/indigo-2_10" ,
+  	"http://lara.epfl.ch/~insynth/juno-2_9" ,
+  	"http://lara.epfl.ch/~insynth/juno-2_10"
 	]
   category = incubation
   website = "http://lara.epfl.ch/w/insynth"
