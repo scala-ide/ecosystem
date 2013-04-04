@@ -56,11 +56,11 @@ be permitted within the framework of the plugin's license**.
 Getting your plugin sponsored [1]_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To get your plugin sponsored, you need to look for a sponsor from the
-`Scala-IDE team <http://scala-ide.org/team.html>`_ on the `Scala-IDE
-development mailing
-list <http://groups.google.com/group/scala-ide-dev>`_, ensuring your
-request includes:
+To get your plugin sponsored, you need to look for a sponsor (any community 
+member can fit the role) on both the `Scala-IDE development mailing list 
+<http://groups.google.com/group/scala-ide-dev>`_ or the `Scala-IDE user mailing
+list <http://groups.google.com/group/scala-ide-user>`_, ensuring your request 
+includes:
 
 -  a link to the sources of your project
 
