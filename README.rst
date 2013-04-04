@@ -58,7 +58,7 @@ Getting your plugin sponsored [1]_
 
 To get your plugin sponsored, you need to look for a sponsor (any community 
 member can fit the role) on both the `Scala-IDE development mailing list 
-<http://groups.google.com/group/scala-ide-dev>`_ or the `Scala-IDE user mailing
+<http://groups.google.com/group/scala-ide-dev>`_ and the `Scala-IDE user mailing
 list <http://groups.google.com/group/scala-ide-user>`_, ensuring your request 
 includes:
 
