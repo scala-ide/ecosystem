@@ -4,6 +4,7 @@ plugin-descriptor {
   issue-tracker = "https://github.com/scala-ide/scala-worksheet/issues/"
   update-sites = ["http://download.scala-ide.org/plugins/worksheet/releases/e37/2.9.x/site/" , 
                   "http://download.scala-ide.org/plugins/worksheet/releases/e37/2.10.x/site/",
+                  "http://download.scala-ide.org/plugins/worksheet/releases/e37/2.11.x/site/",
                   "http://download.scala-ide.org/plugins/worksheet/releases/e38/2.9.x/site/" , 
                   "http://download.scala-ide.org/plugins/worksheet/releases/e38/2.10.x/site/"]
   category = Incubation
