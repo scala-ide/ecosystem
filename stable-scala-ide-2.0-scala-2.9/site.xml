@@ -15,8 +15,12 @@
    <feature url="features/org.scala-ide.sdt.scalatest.source.feature_0.0.0.jar" id="org.scala-ide.sdt.scalatest.source.feature" version="0.9.3">
       <category name="source"/>
    </feature>
+   <feature url="features/org.scalastyle.scalastyleplugin.feature_0.0.0.jar" id="org.scalastyle.scalastyleplugin.feature" version="0.2.0">
+      <category name="scalastyle"/>
+   </feature>
    <category-def name="sdt" label="Scala IDE for Eclipse"/>
    <category-def name="sdt.scalatest" label="ScalaTest for Scala IDE"/>
+   <category-def name="scalastyle" label="Scalastyle for Scala IDE"/>
    <category-def name="dev" label="Scala IDE for Eclipse development support"/>
    <category-def name="source" label="Sources"/>
 </site>
